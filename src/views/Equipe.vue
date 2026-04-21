@@ -1,13 +1,13 @@
 <template>
   <div class="px-64 pb-8">
-    <section class="w-full h-fit rounded-4xl p-8 flex flex-col gap-8 bg-blue-50 shadow-md">
-      <span class="text-5xl font-bold mb-4">Notre équipe</span>
+    <section class="card mb-8 flex flex-col gap-4">
+      <span class="text-4xl font-bold mb-4">Notre équipe</span>
       <div
         v-for="(member, index) in teamMembers"
         :key="member.name"
         :class="[
-          'w-full h-full shadow bg-white rounded-4xl flex gap-8 items-center',
-          index % 2 === 0 ? 'flex-row' : 'flex-row-reverse',
+          'card flex-row! items-center p-0! bg-primary-100',
+          index % 2 === 0 ? 'flex-row!' : 'flex-row-reverse!',
         ]"
       >
         <div class="w-64 py-8 flex flex-col gap-2 items-center justify-center">
@@ -23,23 +23,17 @@
       </div>
     </section>
 
-    <!-- Inscriptions -->
-    <section
-      class="w-full h-fit bg-blue-50 rounded-4xl p-8 flex gap-8 relative shadow-md mb-8"
-    >
-      <div class="flex flex-col gap-4 w-9/10">
-        <span class="text-5xl font-bold ">Classes ouvertes !</span>
-        <span class="text-xl">
-          Cette année, l'école s'agrandit une fois de plus ! Désormais, les classes de 6ᵉ, 5ᵉ et 4ᵉ sont ouvertes aux inscriptions.
-        </span>
-        <button class="bg-primary hover:!bg-primary-dark cursor-pointer text-white !w-fit py-4 px-8 font-bold text-xl rounded-4xl mt-4" @click="$router.push('/')">Inscrire mon enfant</button>
-      </div>
-    </section>
+    <OpenClasses />
   </div>
 </template>
 
 <script>
+import OpenClasses from '@/components/common/OpenClasses.vue';
+
 export default {
+  components: {
+    OpenClasses
+  },
   data() {
     return {
       teamMembers: [

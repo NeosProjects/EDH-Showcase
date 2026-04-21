@@ -39,10 +39,10 @@
 
     <!-- Objectifs -->
     <section
-      class="w-full h-fit rounded-4xl p-4 flex flex-col gap-8"
+      class="w-full h-fit rounded-4xl flex flex-col gap-6 py-4"
     >
-      <span class="text-5xl font-bold h-fit">Nos objectifs</span>
-      <div class="md:h-[450px] flex flex-col md:flex-row gap-8">
+      <span class="text-4xl font-bold h-fit">Nos objectifs</span>
+      <div class="flex flex-col md:flex-row gap-8">
         <CardImage 
           img="/imgs/class.jpg"
           title="D'apprentissage"

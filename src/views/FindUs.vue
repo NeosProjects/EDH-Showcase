@@ -1,8 +1,8 @@
 <template>
   <div class="px-4 md:px-64 pb-8">
     <!-- Où sommes-nous ? -->
-    <section class="w-full h-fit rounded-4xl p-8 flex flex-col gap-8 bg-white shadow-md mb-8">
-      <span class="text-5xl font-bold mb-4">Où sommes-nous ?</span>
+    <section class="card mb-8">
+      <span class="text-4xl font-bold mb-2">Où sommes-nous ?</span>
       <span class="text-xl mb-4">
         Notre collège est situé à 18 rue Saint Denis 31400 Toulouse, dans un environnement calme et accessible, proche des transports en commun.
       </span>
@@ -19,17 +19,10 @@
       </div>
     </section>
 
-    <!-- Inscriptions -->
-    <section
-      class="w-full h-fit bg-blue-50 rounded-4xl p-8 flex gap-8 relative shadow-md mb-8"
-    >
-      <div class="flex flex-col gap-4 w-9/10">
-        <span class="text-5xl font-bold ">Classes ouvertes !</span>
-        <span class="text-xl">
-          Cette année, l'école s'agrandit une fois de plus ! Désormais, les classes de 6ᵉ, 5ᵉ et 4ᵉ sont ouvertes aux inscriptions.
-        </span>
-        <button class="bg-primary hover:!bg-primary-dark cursor-pointer text-white !w-fit py-4 px-8 font-bold text-xl rounded-4xl mt-4" @click="$router.push('/')">Inscrire mon enfant</button>
-      </div>
-    </section>
+    <OpenClasses />
   </div>
 </template>
+
+<script setup>
+import OpenClasses from '@/components/common/OpenClasses.vue';
+</script>
