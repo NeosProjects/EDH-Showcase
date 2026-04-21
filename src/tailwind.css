@@ -32,8 +32,7 @@
   display: flex; 
   flex-direction: column;
   position: relative; 
-  padding: 2rem; 
-  margin-bottom: 2rem;
+  padding: 2rem;
   width: 100%; 
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
   border-radius: 2rem;
@@ -43,8 +42,7 @@ button {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem; 
   padding-left: 2rem;
-  padding-right: 2rem; 
-  margin-top: 1rem; 
+  padding-right: 2rem;
   font-size: 1.25rem;
   line-height: 1.75rem; 
   font-weight: 700; 
@@ -61,4 +59,8 @@ button:hover {
 
 button:active {
   background-color: var(--color-primary-600);
+}
+
+bold {
+  font-weight: 700;
 }

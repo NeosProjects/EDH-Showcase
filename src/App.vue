@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavigationShowcase/>
-    <RouterView></RouterView>
+    <RouterView class="py-8"></RouterView>
     <NavigationFooter/>
   </div>
 </template>

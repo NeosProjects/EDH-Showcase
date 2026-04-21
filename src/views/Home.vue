@@ -70,32 +70,32 @@
 
     <!-- Pour tous les profils -->
     <section
-      class="w-full h-fit bg-blue-50 rounded-4xl p-8 gap-8 relative shadow-md hidden md:flex"
+      class="card bg-primary-100"
     >
       <div class="w-full overflow-x-auto">
         <table class="min-w-full table-auto border-collapse">
           <thead>
         <tr>
-          <th class="pr-8 text-5xl font-bold text-left align-top min-w-1/2">Vos inquiétudes ?</th>
-          <th class="text-5xl font-bold text-left align-top min-w-1/2">Notre responsabilité</th>
+          <th class="pr-8 text-4xl font-bold text-left align-top min-w-1/2">Vos inquiétudes ?</th>
+          <th class="text-4xl font-bold text-left align-top min-w-1/2">Notre responsabilité</th>
         </tr>
           </thead>
           <tbody>
-        <tr class="align-top">
-          <td class="py-4 text-xl">"Mon adolescent a des difficultés d'apprentissage"</td>
-          <td class="py-4 text-xl">Il pourra grandir dans un environnement bienveillant et stimulant.</td>
+        <tr class="align-center">
+          <td class="py-4 text-xl">"Mon adolescent a des <bold>difficultés d'apprentissage</bold>"</td>
+          <td class="py-4 text-xl">Il pourra grandir dans un environnement <bold>bienveillant</bold> et stimulant.</td>
         </tr>
-        <tr class="align-top">
-          <td class="py-4 text-xl">"Mon adolescent est précoce"</td>
-          <td class="py-4 text-xl">Notre pédagogie adaptée vise à permettre son épanouissement et à lui donner de meilleures chances de réussite.</td>
+        <tr class="align-center">
+          <td class="py-4 text-xl">"Mon adolescent est <bold>précoce</bold>"</td>
+          <td class="py-4 text-xl">Notre pédagogie adaptée vise à permettre son <bold>épanouissement</bold> et à lui donner de meilleures chances de réussite.</td>
         </tr>
-        <tr class="align-top">
-          <td class="py-4 text-xl">"Mon adolescent est atteint de troubles dys"</td>
-          <td class="py-4 text-xl">Nous proposons un enseignement adapté pour remédier aux difficultés d'apprentissage liées aux troubles cognitifs.</td>
+        <tr class="align-center">
+          <td class="py-4 text-xl">"Mon adolescent est atteint de <bold>troubles</bold> dys"</td>
+          <td class="py-4 text-xl">Nous proposons un <bold>enseignement</bold> adapté pour remédier aux difficultés d'apprentissage liées aux troubles cognitifs.</td>
         </tr>
-        <tr class="align-top">
-          <td class="py-4 text-xl">"Mon adolescent est EXPAT"</td>
-          <td class="py-4 text-xl">Il bénéficiera d'un apprentissage en langues étrangères et d'une ouverture sur l'international.</td>
+        <tr class="align-center">
+          <td class="py-4 text-xl">"Mon adolescent est <bold>EXPAT</bold>"</td>
+          <td class="py-4 text-xl">Il bénéficiera d'un apprentissage en <bold>langues étrangères</bold> et d'une ouverture sur l'international.</td>
         </tr>
           </tbody>
         </table>
@@ -103,15 +103,15 @@
     </section>
 
     <!-- Nos valeurs -->
-    <section class="w-full h-fit rounded-4xl p-8 flex flex-col gap-8 bg-white shadow-md">
-      <span class="text-5xl font-bold">Nos valeurs</span>
-      <span class="text-xl">
+    <section class="card">
+      <span class="text-4xl font-bold mb-3">Nos valeurs</span>
+      <span class="text-xl mb-8">
         Nous désirons insuffler aux enfants nos valeurs de respect, d'esprit d'équipe, de bienveillance et d'internationalisme.
       </span>
       <div class="grid md:grid-cols-3 gap-8">
         <!-- Bloc 1 -->
-        <div class="flex flex-col gap-4 bg-blue-50 rounded-4xl p-6 shadow">
-          <span class="font-bold text-2xl text-primary">Nous respectons et apprécions :</span>
+        <div class="card bg-primary-100 mb-0!">
+          <span class="font-bold text-xl text-primary">Nous respectons et apprécions :</span>
           <ul class="list-disc pl-6 text-lg">
             <li>Nous-mêmes et notre famille</li>
             <li>Les autres cultures et religions</li>
@@ -122,8 +122,8 @@
           </ul>
         </div>
         <!-- Bloc 2 -->
-        <div class="flex flex-col gap-4 bg-blue-50 rounded-4xl p-6 shadow">
-          <span class="font-bold text-2xl text-primary">Nous accueillons tout le monde, où qu'il se trouve :</span>
+        <div class="card bg-primary-100 mb-0!">
+          <span class="font-bold text-xl text-primary">Nous accueillons tout le monde, où qu'il se trouve :</span>
           <ul class="list-disc pl-6 text-lg">
             <li>Nous apprécions notre diversité</li>
             <li>Nous sommes ouverts d'esprit</li>
@@ -133,8 +133,8 @@
           </ul>
         </div>
         <!-- Bloc 3 -->
-        <div class="flex flex-col gap-4 bg-blue-50 rounded-4xl p-6 shadow">
-          <span class="font-bold text-2xl text-primary">Nous nous efforçons d'être une communauté inclusive :</span>
+        <div class="card bg-primary-100 mb-0!">
+          <span class="font-bold text-xl text-primary">Nous nous efforçons d'être une communauté inclusive :</span>
           <ul class="list-disc pl-6 text-lg">
             <li>Nous nous soutenons et nous nous encourageons mutuellement</li>
             <li>Nous valorisons l'empathie et la bienveillance</li>
