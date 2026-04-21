@@ -1,6 +1,64 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #70b892;
-  --color-primary-dark: #418a63;
+  --color-primary-50:  #f3faf6;
+  --color-primary-100: #def3e7;
+  --color-primary-200: #b8e4cb;
+  --color-primary-300: #8fd4ae;
+  --color-primary-400: #70b892;
+  --color-primary-500: #70b892;
+  --color-primary-600: #5ea87e;
+  --color-primary-700: #418a63;
+  --color-primary-800: #418a63;
+  --color-primary-900: #2d5c3e;
+  --color-primary-950: #1a3321;
+}
+
+:root {
+  --color-primary-50:  #f3faf6;
+  --color-primary-100: #def3e7;
+  --color-primary-200: #b8e4cb;
+  --color-primary-300: #8fd4ae;
+  --color-primary-400: #7dc59f;
+  --color-primary-500: #70b892;
+  --color-primary-600: #5ea87e;
+  --color-primary-700: #418a63;
+  --color-primary-800: #347251;
+  --color-primary-900: #265136;
+  --color-primary-950: #1a3321;
+}
+
+.card {
+  display: flex; 
+  flex-direction: column;
+  position: relative; 
+  padding: 2rem; 
+  margin-bottom: 2rem;
+  width: 100%; 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+  border-radius: 2rem;
+}
+
+button {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; 
+  padding-left: 2rem;
+  padding-right: 2rem; 
+  margin-top: 1rem; 
+  font-size: 1.25rem;
+  line-height: 1.75rem; 
+  font-weight: 700; 
+  color: #ffffff; 
+  cursor: pointer;
+  background-color: var(--color-primary-500);
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: var(--color-primary-400);
+}
+
+button:active {
+  background-color: var(--color-primary-600);
 }

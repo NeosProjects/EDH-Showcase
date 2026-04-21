@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-full bg-primary py-16"
+    class="w-full bg-primary-500 py-16"
   >
     <!-- Barre desktop -->
     <div class="flex justify-center md:justify-between items-center h-15 md:px-64">

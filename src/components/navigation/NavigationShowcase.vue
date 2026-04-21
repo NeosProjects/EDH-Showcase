@@ -11,7 +11,7 @@
       </RouterLink>
       <ul class="flex justify-first items-center pl-15">
         <li v-for="menu in menus" :key="menu.title" @mouseenter="menu.active = true" @mouseleave="menu.active = false" class="relative">
-          <RouterLink :to="menu.link" class="text-secondary hover:text-primary pr-8 text-[18px] font-medium flex">
+          <RouterLink :to="menu.link" class="text-secondary hover:text-primary-500 pr-8 text-[18px] font-medium flex">
             <span class="truncate">{{ menu.title }}</span>
             <template v-if="menu.sections.length">
               <Icon v-if="!menu.active" icon="fa-chevron-down" class="ml-2 text-xs self-center"></Icon>
@@ -24,7 +24,7 @@
                 <div v-if="section.title" class="text-sm mb-1 text-gray-500">{{ section.title.toUpperCase() }}</div>
                 <ul>
                   <li v-for="link in section.links" :key="link.name">
-                    <RouterLink :to="link.link" @click="closeAllMenus()" class="h-24 text-secondary hover:text-primary flex items-center gap-2 px-4 py-4 rounded-xl hover:bg-tertiary-light transition-colors">
+                    <RouterLink :to="link.link" @click="closeAllMenus()" class="h-24 text-secondary hover:text-primary-500 flex items-center gap-2 px-4 py-4 rounded-xl hover:bg-tertiary-light transition-colors">
                       <Icon :icon="link.icon" class="text-xl text-gray-800 mr-4"></Icon>
                       <div>
                         <div class="whitespace-nowrap">{{ link.name }}</div>
@@ -69,7 +69,7 @@
           <li v-for="menu in menus" :key="menu.title">
             <RouterLink
               :to="menu.link || menu.sections[0]?.links[0]?.link"
-              class="text-secondary hover:text-primary py-3 text-lg font-medium flex items-center gap-2"
+              class="text-secondary hover:text-primary-500 py-3 text-lg font-medium flex items-center gap-2"
               @click="isMobileMenuOpen = false"
             >
               <span>{{ menu.title }}</span>
