@@ -46,7 +46,7 @@
         <img class="h-[40px]" src="/public/imgs/logo-crop-EDH.jpg" />
         <span class="truncate">Ecole De L'Hêtre</span>
       </RouterLink>
-      <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="text-secondary text-3xl focus:outline-none">
+      <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="text-black! text-2xl! focus:outline-none! bg-transparent!">
         <Icon icon="fa-bars" />
       </button>
     </div>
@@ -62,7 +62,7 @@
         v-if="isMobileMenuOpen"
         class="fixed top-0 right-0 w-4/5 max-w-xs h-full bg-white shadow-lg z-50 flex flex-col gap-2 pt-8"
       >
-        <button @click="isMobileMenuOpen = false" class="absolute top-4 right-4 text-secondary text-2xl">
+        <button @click="isMobileMenuOpen = false" class="absolute top-3 right-4 text-black! text-2xl! bg-transparent!">
           <Icon icon="fa-times" />
         </button>
         <ul class="flex flex-col gap-2 px-6">

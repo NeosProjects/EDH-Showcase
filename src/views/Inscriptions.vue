@@ -8,7 +8,7 @@
           Le collège de l'Hêtre est un établissement hors contrat « Éducation Nationale », ce qui nous offre une liberté pédagogique et organisationnelle.<br/><br/>
           Notre indépendance financière nous permet d'appliquer nos propres méthodes et projets éducatifs, grâce aux inscriptions, aux frais d'adhésion et aux dons.
         </span>
-        <div class="flex flex-row gap-8 mt-4">
+        <div class="flex flex-col md:flex-row gap-8 mt-4">
           <div class="card bg-primary-100 items-center">
             <Icon icon="chalkboard-teacher" class="text-primary text-4xl mb-2"/>
             <span class="font-bold text-xl mb-2">Liberté pédagogique</span>
@@ -27,7 +27,7 @@
     <section class="card bg-primary-100">
       <span class="text-4xl font-bold mb-4">Frais d'inscription scolaire 2026/2027</span>
       <div class="flex flex-col gap-4 text-xl">
-        <div class="flex flex-row gap-8">
+        <div class="flex flex-col md:flex-row gap-8">
           <div class="card items-center bg-white">
             <Icon icon="user-graduate" class="text-primary text-4xl mb-2"/>
             <span class="font-bold text-xl mb-2">Tarif annuel</span>

@@ -15,32 +15,32 @@
       <div class="text-4xl font-bold mb-4">Les différentes salles</div>
         <div class="grid md:grid-cols-3 gap-8">
           <CardImage
-            img="/public/imgs/class.jpg"
+            img="/imgs/class.jpg"
             title="Salle de 6<sup>e</sup>"
             :text="`Une salle dédiée aux élèves de 6<sup>e</sup>, équipée pour favoriser l'apprentissage et la cohésion de groupe.`"
           />
           <CardImage
-            img="/public/imgs/class.jpg"
+            img="/imgs/class.jpg"
             title="Salle de 5<sup>e</sup>"
             :text="`Un espace adapté aux besoins des élèves de 5<sup>e</sup>, propice au travail et à l'entraide.`"
           />
           <CardImage
-            img="/public/imgs/class.jpg"
+            img="/imgs/class.jpg"
             title="Salle de 4<sup>e</sup>"
             :text="`Une salle moderne pour les élèves de 4<sup>e</sup>, favorisant l'autonomie et la réussite scolaire.`"
           />
           <CardImage
-            img="/public/imgs/class.jpg"
+            img="/imgs/class.jpg"
             title="Salle de repos"
             :text="`Un espace calme dédié à la détente, à la lecture et au bien-être des élèves.`"
           />
           <CardImage
-            img="/public/imgs/class.jpg"
+            img="/imgs/class.jpg"
             title="Salle à manger"
             :text="`Un lieu convivial pour partager les repas dans une ambiance chaleureuse.`"
           />
           <CardImage
-            img="/public/imgs/class.jpg"
+            img="/imgs/class.jpg"
             title="Salle de théâtre"
             :text="`Un espace dédié à l'expression artistique, aux spectacles et aux ateliers de théâtre.`"
           />

@@ -73,32 +73,26 @@
       class="card bg-primary-100"
     >
       <div class="w-full overflow-x-auto">
-        <table class="min-w-full table-auto border-collapse">
-          <thead>
-        <tr>
-          <th class="pr-8 text-4xl font-bold text-left align-top min-w-1/2">Vos inquiétudes ?</th>
-          <th class="text-4xl font-bold text-left align-top min-w-1/2">Notre responsabilité</th>
-        </tr>
-          </thead>
-          <tbody>
-        <tr class="align-center">
-          <td class="py-4 text-xl">"Mon adolescent a des <bold>difficultés d'apprentissage</bold>"</td>
-          <td class="py-4 text-xl">Il pourra grandir dans un environnement <bold>bienveillant</bold> et stimulant.</td>
-        </tr>
-        <tr class="align-center">
-          <td class="py-4 text-xl">"Mon adolescent est <bold>précoce</bold>"</td>
-          <td class="py-4 text-xl">Notre pédagogie adaptée vise à permettre son <bold>épanouissement</bold> et à lui donner de meilleures chances de réussite.</td>
-        </tr>
-        <tr class="align-center">
-          <td class="py-4 text-xl">"Mon adolescent est atteint de <bold>troubles</bold> dys"</td>
-          <td class="py-4 text-xl">Nous proposons un <bold>enseignement</bold> adapté pour remédier aux difficultés d'apprentissage liées aux troubles cognitifs.</td>
-        </tr>
-        <tr class="align-center">
-          <td class="py-4 text-xl">"Mon adolescent est <bold>EXPAT</bold>"</td>
-          <td class="py-4 text-xl">Il bénéficiera d'un apprentissage en <bold>langues étrangères</bold> et d'une ouverture sur l'international.</td>
-        </tr>
-          </tbody>
-        </table>
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-x-8">
+          <div>
+            <div class="pr-8 text-4xl font-bold text-left mb-6">Vos inquiétudes ?</div>
+            <div class="flex flex-col gap-4">
+              <div class="py-4 text-xl">"Mon adolescent a des <b>difficultés d'apprentissage</b>"</div>
+              <div class="py-4 text-xl">"Mon adolescent est <b>précoce</b>"</div>
+              <div class="py-4 text-xl">"Mon adolescent est atteint de <b>troubles</b> dys"</div>
+              <div class="py-4 text-xl">"Mon adolescent est <b>EXPAT</b>"</div>
+            </div>
+          </div>
+          <div>
+            <div class="text-4xl font-bold text-left mb-6">Notre responsabilité</div>
+            <div class="flex flex-col gap-4">
+              <div class="py-4 text-xl">Il pourra grandir dans un environnement <b>bienveillant</b> et stimulant.</div>
+              <div class="py-4 text-xl">Notre pédagogie adaptée vise à permettre son <b>épanouissement</b> et à lui donner de meilleures chances de réussite.</div>
+              <div class="py-4 text-xl">Nous proposons un <b>enseignement</b> adapté pour remédier aux difficultés d'apprentissage liées aux troubles cognitifs.</div>
+              <div class="py-4 text-xl">Il bénéficiera d'un apprentissage en <b>langues étrangères</b> et d'une ouverture sur l'international.</div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
