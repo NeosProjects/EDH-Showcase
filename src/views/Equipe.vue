@@ -14,7 +14,7 @@
           <img :src="member.img" class="w-36 h-36 rounded-full object-cover" />
           <div class="flex flex-col items-center">
             <span class="font-bold text-xl">{{ member.name }}</span>
-            <span class="text-gray-700">{{ member.profession }}</span>
+            <span class="text-gray-700 text-center">{{ member.profession }}</span>
           </div>
         </div>
         <div class="w-full h-full p-4 text-xl" v-html="member.description">
@@ -84,6 +84,20 @@ export default {
           img: '/imgs/team/programmation.jpg',
           description:
             "Description",
+        },
+        {
+          name: 'Marie-Céline',
+          profession: 'Prof. Chant',
+          img: '/imgs/team/sing.png',
+          description:
+            "Passionnée par la voix et la transmission. J'accompagne les enfants dans un cadre bienveillant et joyeux. Timide de nature j'ai découvert que le chant est un précieux allié pour s'exprimer, prendre confiance en soi et dépasser ses peurs. Mon désir est d'aider les enfants à croire en eux, à oser prendre leur place et à révéler leurs talents. Grâce à la musique et à l'apprentissage de chants je propose un espace où chacun peut s'épanouir et laisser briller sa petite lumière.",
+        },
+        {
+          name: 'Nathalie',
+          profession: 'Prof. Math/Physique-Chimie',
+          img: '/imgs/team/',
+          description:
+            "Enseignante depuis plus de 15 ans en sciences, diplômée en relation d'aide et sophrologie, j'adapte ma pédagogie à chaque enfant. Les petits effectifs de l'école permettent un lien privilégié et une attention personnalisée. Ma philosophie: chaque enfant a du talent! J'aide chacun à le découvrir, à progresser à son rythme, et à prendre confiance. L'école est pour moi un lieu d'apprentissage, mais aussi de découverte de soi et des autres, dans un cadre sécurisant et bienveillant.",
         },
         {
           name: 'Prénom',

@@ -26,7 +26,7 @@
     <!-- Philosophie -->
     <TextImage 
       title="Notre philosophie"
-      text="Notre collège est axée sur l'adolescent en tant qu'être à part entière, mais également sur l'adolescent membre d'un groupe.<br/><br/>
+      text="Notre collège est axé sur l'adolescent en tant qu'être à part entière, mais également sur l'adolescent membre d'un groupe.<br/><br/>
           Nous partons du principe que les mêmes méthodes d'apprentissage des connaissances ne sont pas adaptées à tous les adolescents.<br/><br/>
           Notre attachement à l'ouverture sur le monde et notre approche individuelle permettront à votre adolescent de s'épanouir et de découvrir tout son potentiel."
 
