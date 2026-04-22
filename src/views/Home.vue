@@ -141,6 +141,15 @@
     </section>
 
     <OpenClasses />
+
+    <section class="card text-xl">
+      <span class="text-4xl font-bold mb-4">Qu'en pensent les parents ?</span>
+      <div>
+        <span class="font-bold">Anonyme</span>
+        <span>&nbsp;-&nbsp;</span>
+        <span>"Mon enfant.... Lorem ipsum"</span>
+      </div>
+    </section>
   </div>
 </template>
 
