@@ -17,7 +17,7 @@
             <span class="text-gray-700">{{ member.profession }}</span>
           </div>
         </div>
-        <div class="w-full h-full p-8 text-xl" v-html="member.description">
+        <div class="w-full h-full p-4 text-xl" v-html="member.description">
         </div>
       </div>
     </section>
