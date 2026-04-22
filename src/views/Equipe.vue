@@ -74,9 +74,9 @@ export default {
         {
           name: 'Mara',
           profession: 'Prof. Histoire',
-          img: '/imgs/team/',
+          img: '/imgs/team/history.png',
           description:
-            "Description",
+            "Formée à l'archéologie et à la médiation culturelle, j'enseigne l'histoire et la littérature, avec une idée simple : rendre le savoir concret et accessible à tous les élèves. Dans mes cours, les élèves ne restent pas en position d'écoute. Ils enquêtent, expérimentent, lisent et mettent en scène. Le petit effectif permet également des mises en situation plus poussées, comme des jeux de rôle autour de moments clés de l'histoire. Mon objectif est de partir du vécu des élèves : de leurs expériences ou de leurs centres d'intérêt pour élaborer des activités qui les aident à comprendre et à progresser à leur propre rythme.",
         },
         {
           name: 'Néo',
