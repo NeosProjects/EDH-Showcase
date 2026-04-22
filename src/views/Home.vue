@@ -14,7 +14,7 @@
     <!-- Qui sommes-nous ? -->
     <TextImage 
       title="Qui sommes-nous ?"
-      text="L'école de l'Hêtre est un établissement privé associatif accueillant les collégiens jusqu'à la fin du collège.
+      text="Le collège de l'Hêtre est un établissement privé associatif accueillant les collégiens jusqu'à la fin du collège.
           <br/><br/>
           Créé par des enseignants, des professionnels et des parents engagés, il place la bienveillance, la confiance en soi et l'ouverture sur le monde au cœur de son projet pédagogique.
           <br/><br/>
@@ -26,7 +26,7 @@
     <!-- Philosophie -->
     <TextImage 
       title="Notre philosophie"
-      text="Notre école est axée sur l'adolescent en tant qu'être à part entière, mais également sur l'adolescent membre d'un groupe.<br/><br/>
+      text="Notre collège est axée sur l'adolescent en tant qu'être à part entière, mais également sur l'adolescent membre d'un groupe.<br/><br/>
           Nous partons du principe que les mêmes méthodes d'apprentissage des connaissances ne sont pas adaptées à tous les adolescents.<br/><br/>
           Notre attachement à l'ouverture sur le monde et notre approche individuelle permettront à votre adolescent de s'épanouir et de découvrir tout son potentiel."
 

@@ -5,9 +5,9 @@
   >
     <!-- Barre desktop -->
     <div class="hidden md:flex justify-between items-center h-15 bg-white px-64">
-      <RouterLink to="/" class="text-black font-bold text-4xl mb-5xl select-none cursor-pointer flex items-center gap-3">
+      <RouterLink to="/" class="text-black font-bold text-3xl mb-5xl select-none cursor-pointer flex items-center gap-3">
         <img class="h-[55px]" src="/public/imgs/logo-crop-EDH.jpg"></img>
-        <span class="truncate">Ecole De L'Hêtre</span>
+        <span class="truncate">Collège De L'Hêtre</span>
       </RouterLink>
       <ul class="flex justify-first items-center pl-15">
         <li v-for="menu in menus" :key="menu.title" @mouseenter="menu.active = true" @mouseleave="menu.active = false" class="relative">
@@ -44,7 +44,7 @@
     <div class="md:hidden flex justify-between items-center px-4 h-15 bg-white">
       <RouterLink to="/" class="text-black font-bold text-2xl select-none cursor-pointer flex items-center gap-2">
         <img class="h-[40px]" src="/public/imgs/logo-crop-EDH.jpg" />
-        <span class="truncate">Ecole De L'Hêtre</span>
+        <span class="truncate">Collège De L'Hêtre</span>
       </RouterLink>
       <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="text-black! text-2xl! focus:outline-none! bg-transparent!">
         <Icon icon="fa-bars" />
