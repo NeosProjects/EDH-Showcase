@@ -100,6 +100,13 @@ export default {
             "Enseignante depuis plus de 15 ans en sciences, diplômée en relation d'aide et sophrologie, j'adapte ma pédagogie à chaque enfant. Les petits effectifs de l'école permettent un lien privilégié et une attention personnalisée. Ma philosophie: chaque enfant a du talent! J'aide chacun à le découvrir, à progresser à son rythme, et à prendre confiance. L'école est pour moi un lieu d'apprentissage, mais aussi de découverte de soi et des autres, dans un cadre sécurisant et bienveillant.",
         },
         {
+          name: 'Theo',
+          profession: 'Prof. Musique',
+          img: '/imgs/team/music.png',
+          description:
+            "Musicien diplômé du conservatoire et d'un master en médiation de la musique, j'accompagne les enfants dans leur aventure musicale avec passion. J'adapte mon enseignement à chaque personnalité et rythme, en privilégiant une approche vivante et participative. La théorie devient accessible, la créativité est encouragée, et chacun trouve un espace pour s'exprimer. Mon enseignement s'inscrit dans la philosophie du collège alternatif, tout en gardant la possibilité de rejoindre un cursus classique. Pour moi, la musique est avant tout un langage et une ouverture sur le monde.",
+        },
+        {
           name: 'Prénom',
           profession: 'Profession',
           img: '/imgs/team/',
