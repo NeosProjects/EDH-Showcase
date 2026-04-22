@@ -72,8 +72,8 @@
     <section
       class="card bg-primary-100"
     >
-      <div class="w-full overflow-x-auto">
-        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-x-8">
+      <div class="w-full overflow-x-auto md:hidden">
+        <div class="w-full grid grid-cols-1 gap-x-8 gap-y-8">
           <div>
             <div class="pr-8 text-4xl font-bold text-left mb-6">Vos inquiétudes ?</div>
             <div class="flex flex-col gap-4">
@@ -93,6 +93,38 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="w-full overflow-x-auto hidden md:block">
+        <table class="min-w-full bg-transparent">
+          <thead>
+            <tr>
+              <th class="pr-8 text-4xl font-bold text-left mb-6 align-top w-1/2">
+                Vos inquiétudes ?
+              </th>
+              <th class="text-4xl font-bold text-left mb-6 align-top w-1/2">
+                Notre responsabilité
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-4 text-xl align-top">"Mon adolescent a des <b>difficultés d'apprentissage</b>"</td>
+              <td class="py-4 text-xl align-top">Il pourra grandir dans un environnement <b>bienveillant</b> et stimulant.</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-xl align-top">"Mon adolescent est <b>précoce</b>"</td>
+              <td class="py-4 text-xl align-top">Notre pédagogie adaptée vise à permettre son <b>épanouissement</b> et à lui donner de meilleures chances de réussite.</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-xl align-top">"Mon adolescent est atteint de <b>troubles</b> dys"</td>
+              <td class="py-4 text-xl align-top">Nous proposons un <b>enseignement</b> adapté pour remédier aux difficultés d'apprentissage liées aux troubles cognitifs.</td>
+            </tr>
+            <tr>
+              <td class="py-4 text-xl align-top">"Mon adolescent est <b>EXPAT</b>"</td>
+              <td class="py-4 text-xl align-top">Il bénéficiera d'un apprentissage en <b>langues étrangères</b> et d'une ouverture sur l'international.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 

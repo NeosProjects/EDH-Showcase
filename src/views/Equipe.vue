@@ -69,7 +69,7 @@ export default {
           profession: 'Prof. Art',
           img: '/imgs/team/art.png',
           description:
-            "Geneviève, Peintre et Professeur d'arts plastiques. Mon ambition est de faire grandir la confiance des enfants et la mise en pratique des Arts quelque soit le support. Je m'efforce également de développer leur culture générale en leur proposant de travailler sur différents peintres et techniques connus.",
+            "Peintre et Professeur d'arts plastiques. Mon ambition est de faire grandir la confiance des enfants par la mise en pratique des Arts quelque soit le support. Je m'efforce également de développer leur culture générale en leur proposant de travailler sur différents peintres et techniques connus.Ces créations sont accompagnées de beaucoup d'échanges où les enfants parfois se confient ou expriment oralement des sentiments ou des pensées … mon cours se veut convivial et ouvert à la créativité.Je l'ai pensé comme une bulle d'oxygène où on s'exprime sans jugement et dans la bienveillance totale.Chacun a un talent…. À nous de découvrir où on peut s'exprimer ….",
         },
         {
           name: 'Mara',
