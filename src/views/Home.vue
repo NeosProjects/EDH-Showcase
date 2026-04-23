@@ -174,19 +174,63 @@
 
     <OpenClasses />
 
-    <section class="card text-xl">
+    <section class="card text-xl space-y-4">
       <span class="text-4xl font-bold mb-4">Qu'en pensent les parents ?</span>
-      <div>
-        <span class="font-bold">Anonyme</span>
+      <div v-for="(temoignage, index) in temoignages" :key="index">
+        <span class="font-bold">{{ temoignage.name }}</span>
         <span>&nbsp;-&nbsp;</span>
-        <span>"Mon enfant.... Lorem ipsum"</span>
+        <span>
+          <div
+            :class="{ 
+              'h-42 text-ellipsis overflow-y-hidden': !expandedTestimonials[index] && isDescriptionLong(temoignage.text),
+              'h-fit': expandedTestimonials[index] || !isDescriptionLong(temoignage.text)
+            }"
+            class="pl-4"
+            v-html="temoignage.text"
+          ></div>
+          <span
+            v-if="isDescriptionLong(temoignage.text)"
+            @click="toggleExpanded(index)"
+            class="text-primary-500 hover:underline ml-4 font-semibold cursor-pointer"
+          >
+            {{ expandedTestimonials[index] ? 'Voir moins' : 'Voir plus' }}
+          </span>
+        </span>
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue';
 import OpenClasses from '@/components/common/OpenClasses.vue';
 import TextImage from '@/components/common/TextImage.vue';
 import CardImage from '@/components/common/CardImage.vue';
+
+const expandedTestimonials = ref({});
+
+const temoignages = [
+  {
+    name: "Un parent",
+    text: "En tant que maman de trois enfants, j'ai vécu un tournant majeur avec ma dernière fille. Profil neuroatypique HPI, elle a longtemps grandi loin des bancs de l'école, en instruction en famille. Et puis, un jour, c'est elle qui a pris cette décision courageuse : elle a voulu pousser la porte de l'École de l'Hêtre à Toulouse. Depuis trois ans maintenant — soit quasiment depuis la création de l'école — nous vivons une aventure humaine qui a tout changé. Une structure éducative unique, Au-delà de leur rôle de créateurs, Marie Zévaco et Julien ont porté ma fille et ce projet avec une énergie et une humanité hors du commun. Ensemble, ils ont bâti bien plus qu'une structure éducative : ils ont créé un cadre aussi rassurant que celui d'une maison. Ma fille a pu surmonter ses peurs, reprendre confiance en elle et vivre une vie d'élève épanouie, entourée d'amis précieux et courageux aussi comme Clotilde, Tim, Tahina et Jean. Une transformation partagée, Marie et Julien réussissent ce tour de force : mettre une étincelle dans les yeux des enfants, mais aussi dans ceux des parents. Je peux en témoigner personnellement : il y a eu une véritable transformation en moi aussi (mais ça, je le garde secret !). Voir son enfant s'épanouir et redevenir actrice de sa vie est un soulagement qui change tout le quotidien d'une maman. Des projets qui ouvrent le monde, Marie déploie une énergie incroyable pour proposer des expériences marquantes : Rencontres inspirantes : Des autrices comme Linda (aventure au long cours) ou Alexandra (outil de lecture de soi) pour aider les enfants à croire en leurs rêves et leurs potentiels. Expression & Art : Théâtre, sport, gospel, et même un moment inoubliable avec le parrain de l'école, Eyal, à l'Olympia. Culture Urbaine : Des échanges créatifs avec les artistes Ceet Fouad et Jazzu. Découverte du terrain : Des reptiles de Philippe Gillet aux rencontres avec les militaires de Francazal ou la gendarmerie. Porter l'espoir au-delà de l'école. Aujourd'hui, Victoria ne se contente plus de suivre une scolarité, elle se projette enfin vers l'avenir. Elle rêve désormais de sauver des vies en devenant chirurgienne et de faire de l'humanitaire. Je pense que Victoria pourra faire résonance à l'École de l'Hêtre et porter un message de créativité, d'espoir et de lumière un peu partout. L'École de l'Hêtre est un lieu rare. Je remercie avant tout Marie Zévaco et Julien pour leur magie et leur regard si précieux. On ne lâche rien, c'est le mot d'ordre !"
+  },
+  {
+    name: "Une maman",
+    text: "Je voulais simplement vous dire merci du fond du cœur. Grâce à vous deux, et à tout ce que vous faites à l'école, Alyssa a pu réussir à se réadapter à l'école classique. Et ce n'est pas rien. Marie, ce que toi et Julien avez créé est vraiment exceptionnel. C'est un lieu sûr, bienveillant, qui donne une voix aux enfants qu'on n'entend pas toujours. Ce que vous faites est précieux et cela a fait toute la différence pour Alyssa. Merci infiniment pour tout ce que vous avez fait pour elle. Je vous suis profondément reconnaissante. Avec toute ma gratitude, Nusha"
+  },
+  {
+    name: "Une autre maman",
+    text: "Avant d'intégrer l'école de l'Hêtre, notre fils était en grande difficulté dans le système scolaire classique. Malgré tous ses efforts, ses difficultés n'étaient pas suffisamment pris en compte, ce qui impactait fortement sa confiance en lui et son envie d'apprendre. Le choix de cette école a été un tournant décisif pour toute notre famille. Dès les premières semaines, nous avons vu un changement profond. Notre fils a retrouvé le sourire, l'envie d'aller à l'école et surtout le plaisir d'apprendre. L'équipe pédagogique fait un travail remarquable : chaque enfant est compris dans sa singularité, accompagné avec bienveillance, tout en étant encouragé avec exigence à progresser. Ici, les apprentissages sont adaptés, structurés et réellement efficaces. Les enfants avec des troubles dys, TSA ou TDAH peuvent avancer à leur rythme, reprendre confiance en leurs capacités et développer leur potentiel dans un cadre sécurisant et stimulant. Aujourd'hui, notre fils est épanoui, heureux et fier de lui. Il a retrouvé confiance et avance sereinement dans ses apprentissages, ce qui semblait impossible auparavant.Non seulement cette école a transformé notre fils,mais elle l'a mis dans un cadre exigeant de réussite scolaire. Nous recommandons cette école sans hésitation à toutes les familles qui cherchent une solution adaptée pour leur enfant atypique. C'est bien plus qu'une école : c'est un lieu où les enfants peuvent enfin se révéler,grandir et être heureux tout en visant une réussite scolaire ambitieuse."
+  }
+];
+
+function isDescriptionLong(description) {
+  const plainText = description.replace(/<[^>]*>/g, '');
+  const wordCount = plainText.trim().split(/\s+/).length;
+  return wordCount > 100;
+}
+
+function toggleExpanded(index) {
+  expandedTestimonials.value[index] = !expandedTestimonials.value[index];
+}
 </script>
