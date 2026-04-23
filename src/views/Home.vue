@@ -2,7 +2,7 @@
   <div class="px-4 md:px-64 flex flex-col gap-8">
     <!-- Hero -->
     <section
-      class="w-full h-[450px] bg-[url('/imgs/class.jpg')] bg-cover bg-center rounded-4xl p-8 flex flex-col items-left justify-center gap-2 relative"
+      class="w-full h-[450px] bg-[url('/imgs/college/group.png')] bg-cover bg-center rounded-4xl p-8 flex flex-col items-left justify-center gap-2 relative"
     >
       <div class="absolute inset-0 bg-black opacity-50 rounded-4xl"></div>
       <div class="relative z-10 flex flex-col gap-2">
@@ -20,7 +20,7 @@
           <br/><br/>
           Ce projet, fondé sur des expériences pédagogiques et personnelles, bénéficie du soutien de chefs d'entreprise et de donateurs apportant expertise et financements."
 
-      img="/imgs/class.jpg"
+      img="/imgs/college/prof.png"
     />
     
     <!-- Philosophie -->
@@ -30,7 +30,7 @@
           Nous partons du principe que les mêmes méthodes d'apprentissage des connaissances ne sont pas adaptées à tous les adolescents.<br/><br/>
           Notre attachement à l'ouverture sur le monde et notre approche individuelle permettront à votre adolescent de s'épanouir et de découvrir tout son potentiel."
 
-      img="/imgs/class.jpg"
+      img="/imgs/college/drawing.png"
       :left="true"
     />
 
@@ -44,14 +44,14 @@
       <span class="text-4xl font-bold h-fit">Nos objectifs</span>
       <div class="flex flex-col md:flex-row gap-8">
         <CardImage 
-          img="/imgs/class.jpg"
+          img="/imgs/college/prof2.png"
           title="D'apprentissage"
           text="<span>Faciliter l'apprentissage en recherchant la forme la plus adaptée pour chaque enfant.</span>
             <span>Donner le goût des études et des apprentissages en y apportant du sens.</span>"
         />
 
         <CardImage 
-          img="/imgs/class.jpg"
+          img="/imgs/college/group3.png"
           title="Réussite personnelle"
           text="<span>Favoriser la confiance en soi.</span>
             <span>Susciter la motivation.</span>
@@ -60,7 +60,7 @@
         />
 
         <CardImage 
-          img="/imgs/class.jpg"
+          img="/imgs/college/game.png"
           title="Citoyens"
           text="<span>Encourager et contribuer à l'ouverture sur le monde tout en gardant sa place.</span>
             <span>Former des citoyens du monde qui font preuve d'intégrité morale et de responsabilité sociale.</span>"
