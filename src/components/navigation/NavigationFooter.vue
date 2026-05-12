@@ -5,7 +5,7 @@
     <!-- Barre desktop -->
     <div class="flex justify-center md:justify-between items-center h-15 md:px-64">
       <RouterLink to="/" class="text-black font-bold bg-white p-4 rounded-4xl text-3xl mb-5xl select-none cursor-pointer flex items-center gap-3">
-        <img class="h-[55px]" src="/public/imgs/logo-crop-EDH.jpg"></img>
+        <img class="h-[55px]" src="/imgs/logo-crop-EDH.jpg"></img>
         <span class="truncate">Collège De L'Hêtre</span>
       </RouterLink>
       <ul class=" hidden md:flex justify-center items-center pl-15">

@@ -26,11 +26,43 @@
     <!-- Philosophie -->
     <TextImage 
       title="Notre philosophie"
-      text="Notre collège est axé sur l'adolescent en tant qu'être à part entière, mais également sur l'adolescent membre d'un groupe.<br/><br/>
-          Nous partons du principe que les mêmes méthodes d'apprentissage des connaissances ne sont pas adaptées à tous les adolescents.<br/><br/>
-          Notre attachement à l'ouverture sur le monde et notre approche individuelle permettront à votre adolescent de s'épanouir et de découvrir tout son potentiel."
+      text="
+Au Collège de l'Hêtre, nous sommes convaincus qu'un enfant ne peut pleinement apprendre que lorsqu'il se sent reconnu, valorisé et libre d'exprimer sa singularité.<br><br>
 
-      img="/imgs/college/drawing.png"
+Depuis bientôt quatre ans, notre structure accompagne des élèves aux profils variés : enfants atypiques, profils HPI, troubles dys, TSA, hypersensibilité… Mais aussi des enfants simplement en quête d'un cadre plus humain, plus respectueux de leur rythme et de leur manière d'apprendre.<br><br>
+
+Au fil des années, une évidence s'est imposée à nous :<br>
+<strong>l'ouverture artistique transforme profondément les enfants.</strong><br><br>
+
+Les neurosciences démontrent aujourd'hui que les activités artistiques stimulent les connexions neuronales, renforcent la mémoire, l'attention, la confiance en soi et les capacités d'apprentissage.<br>
+La danse développe la coordination, la concentration et l'intégration corporelle.<br>
+Le chant et la musique favorisent le langage, l'écoute et la régulation émotionnelle.<br>
+Le théâtre aide l'enfant à prendre sa place, à s'exprimer et à développer son intelligence relationnelle.<br>
+Les projets créatifs comme le podcast, le court-métrage, le codage ou l'écriture permettent aux élèves de donner du sens à leurs idées, d'oser créer et de découvrir leurs talents.<br><br>
+
+Chez certains enfants dys ou atypiques, ces approches deviennent même de véritables leviers d'apprentissage et d'épanouissement.<br><br>
+
+C'est pourquoi l'art n'est pas une activité “en plus” dans notre établissement :<br>
+<strong>c'est notre ADN.</strong><br><br>
+
+Notre ambition est de proposer un collège où les enfants peuvent expérimenter, créer, explorer et développer leur potentiel dans un environnement bienveillant et stimulant.<br><br>
+
+Nous suivons le programme de l'Éducation nationale avec sérieux et exigence.<br>
+Mais nous croyons profondément qu'il ne suffit pas de transmettre un programme : il faut transmettre d'une manière adaptée à chaque collégien.<br><br>
+
+Nos enseignants s'attachent donc à respecter le rythme de l'élève, à valoriser ses réussites et à l'aider à retrouver confiance dans ses capacités.<br><br>
+
+Le Collège de l'Hêtre est un lieu pensé pour des adolescents curieux, créatifs, sensibles et passionnés.<br><br>
+Pour ceux qui aiment chanter, danser, jouer, imaginer, coder, écrire, filmer, inventer.<br><br>
+
+Parce que nous croyons qu'un adolescent qui crée est un adolescent qui grandit.<br><br>
+
+<strong>Créer pour apprendre.<br><br>
+
+S'exprimer pour grandir.<br>
+Être soi pour réussir.</strong>"
+
+      img=""
       :left="true"
     />
 
@@ -80,7 +112,6 @@
               <div class="py-4 text-xl">"Mon adolescent a des <b>difficultés d'apprentissage</b>"</div>
               <div class="py-4 text-xl">"Mon adolescent est <b>précoce</b>"</div>
               <div class="py-4 text-xl">"Mon adolescent est atteint de <b>troubles</b> dys"</div>
-              <div class="py-4 text-xl">"Mon adolescent est <b>EXPAT</b>"</div>
             </div>
           </div>
           <div>
@@ -89,7 +120,6 @@
               <div class="py-4 text-xl">Il pourra grandir dans un environnement <b>bienveillant</b> et stimulant.</div>
               <div class="py-4 text-xl">Notre pédagogie adaptée vise à permettre son <b>épanouissement</b> et à lui donner de meilleures chances de réussite.</div>
               <div class="py-4 text-xl">Nous proposons un <b>enseignement</b> adapté pour remédier aux difficultés d'apprentissage liées aux troubles cognitifs.</div>
-              <div class="py-4 text-xl">Il bénéficiera d'un apprentissage en <b>langues étrangères</b> et d'une ouverture sur l'international.</div>
             </div>
           </div>
         </div>
@@ -119,56 +149,8 @@
               <td class="py-4 text-xl align-top">"Mon adolescent est atteint de <b>troubles</b> dys"</td>
               <td class="py-4 text-xl align-top">Nous proposons un <b>enseignement</b> adapté pour remédier aux difficultés d'apprentissage liées aux troubles cognitifs.</td>
             </tr>
-            <tr>
-              <td class="py-4 text-xl align-top">"Mon adolescent est <b>EXPAT</b>"</td>
-              <td class="py-4 text-xl align-top">Il bénéficiera d'un apprentissage en <b>langues étrangères</b> et d'une ouverture sur l'international.</td>
-            </tr>
           </tbody>
         </table>
-      </div>
-    </section>
-
-    <!-- Nos valeurs -->
-    <section class="card">
-      <span class="text-4xl font-bold mb-3">Nos valeurs</span>
-      <span class="text-xl mb-8">
-        Nous désirons insuffler aux enfants nos valeurs de respect, d'esprit d'équipe, de bienveillance et d'internationalisme.
-      </span>
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Bloc 1 -->
-        <div class="card bg-primary-100 mb-0!">
-          <span class="font-bold text-xl text-primary">Nous respectons et apprécions :</span>
-          <ul class="list-disc pl-6 text-lg">
-            <li>Nous-mêmes et notre famille</li>
-            <li>Les autres cultures et religions</li>
-            <li>L'environnement</li>
-            <li>La propriété d'autrui</li>
-            <li>Tous les membres de notre communauté</li>
-            <li>Les lois et les traditions des sociétés dans lesquelles nous vivons et travaillons</li>
-          </ul>
-        </div>
-        <!-- Bloc 2 -->
-        <div class="card bg-primary-100 mb-0!">
-          <span class="font-bold text-xl text-primary">Nous accueillons tout le monde, où qu'il se trouve :</span>
-          <ul class="list-disc pl-6 text-lg">
-            <li>Nous apprécions notre diversité</li>
-            <li>Nous sommes ouverts d'esprit</li>
-            <li>Nous sommes compréhensifs</li>
-            <li>Nous nous efforçons de toujours collaborer avec les autres</li>
-            <li>Nous célébrons l'internationalisme</li>
-          </ul>
-        </div>
-        <!-- Bloc 3 -->
-        <div class="card bg-primary-100 mb-0!">
-          <span class="font-bold text-xl text-primary">Nous nous efforçons d'être une communauté inclusive :</span>
-          <ul class="list-disc pl-6 text-lg">
-            <li>Nous nous soutenons et nous nous encourageons mutuellement</li>
-            <li>Nous valorisons l'empathie et la bienveillance</li>
-            <li>Nous avons une responsabilité sociale envers autrui</li>
-            <li>Nous sommes généreux</li>
-            <li>Nous sommes fiers de notre communauté scolaire</li>
-          </ul>
-        </div>
       </div>
     </section>
 
@@ -220,7 +202,7 @@ const temoignages = [
   },
   {
     name: "Une autre maman",
-    text: "Avant d'intégrer l'école de l'Hêtre, notre fils était en grande difficulté dans le système scolaire classique. Malgré tous ses efforts, ses difficultés n'étaient pas suffisamment pris en compte, ce qui impactait fortement sa confiance en lui et son envie d'apprendre. Le choix de cette école a été un tournant décisif pour toute notre famille. Dès les premières semaines, nous avons vu un changement profond. Notre fils a retrouvé le sourire, l'envie d'aller à l'école et surtout le plaisir d'apprendre. L'équipe pédagogique fait un travail remarquable : chaque enfant est compris dans sa singularité, accompagné avec bienveillance, tout en étant encouragé avec exigence à progresser. Ici, les apprentissages sont adaptés, structurés et réellement efficaces. Les enfants avec des troubles dys, TSA ou TDAH peuvent avancer à leur rythme, reprendre confiance en leurs capacités et développer leur potentiel dans un cadre sécurisant et stimulant. Aujourd'hui, notre fils est épanoui, heureux et fier de lui. Il a retrouvé confiance et avance sereinement dans ses apprentissages, ce qui semblait impossible auparavant.Non seulement cette école a transformé notre fils,mais elle l'a mis dans un cadre exigeant de réussite scolaire. Nous recommandons cette école sans hésitation à toutes les familles qui cherchent une solution adaptée pour leur enfant atypique. C'est bien plus qu'une école : c'est un lieu où les enfants peuvent enfin se révéler,grandir et être heureux tout en visant une réussite scolaire ambitieuse."
+    text: "Avant d'intégrer l'école de l'Hêtre, notre fils était en grande difficulté dans le système scolaire classique. Malgré tous ses efforts, ses difficultés n'étaient pas suffisamment pris en compte, ce qui impactait fortement sa confiance en lui et son envie d'apprendre. Le choix de cette école a été un tournant décisif pour toute notre famille. Dès les premières semaines, nous avons vu un changement profond. Notre fils a retrouvé le sourire, l'envie d'aller à l'école et surtout le plaisir d'apprendre. L'équipe pédagogique fait un travail remarquable : chaque enfant est compris dans sa singularité, accompagné avec bienveillance, tout en étant encouragé avec exigence à progresser. Ici, les apprentissages sont adaptés, structurés et réellement efficaces. Les enfants avec des troubles dys, TSA ou HPI peuvent avancer à leur rythme, reprendre confiance en leurs capacités et développer leur potentiel dans un cadre sécurisant et stimulant. Aujourd'hui, notre fils est épanoui, heureux et fier de lui. Il a retrouvé confiance et avance sereinement dans ses apprentissages, ce qui semblait impossible auparavant.Non seulement cette école a transformé notre fils,mais elle l'a mis dans un cadre exigeant de réussite scolaire. Nous recommandons cette école sans hésitation à toutes les familles qui cherchent une solution adaptée pour leur enfant atypique. C'est bien plus qu'une école : c'est un lieu où les enfants peuvent enfin se révéler,grandir et être heureux tout en visant une réussite scolaire ambitieuse."
   }
 ];
 

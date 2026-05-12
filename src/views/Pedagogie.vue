@@ -41,7 +41,7 @@
     <section class="card">
       <span class="text-4xl font-bold mb-4">Notre choix pédagogique</span>
       <span class="text-xl">
-        Notre orientation pédagogique repose sur des méthodes éprouvées, comme Montessori ou Freinet, pour accompagner chaque enfant dans ses apprentissages et son épanouissement.<br/><br/>
+        Notre orientation pédagogique repose sur des méthodes éprouvées, pour accompagner chaque enfant dans ses apprentissages et son épanouissement.<br/><br/>
         Les enseignants adaptent ces approches selon les profils et les besoins des élèves.<br/><br/>
         L'enseignement prend en compte le développement affectif, émotionnel, psychique et physique de l'enfant. Le plaisir d'apprendre est cultivé à travers des matières vivantes et variées.<br/><br/>
         Ce choix pédagogique permet une évaluation régulière des enfants, tout en répondant aux exigences de l'administration de tutelle.

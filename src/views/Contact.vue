@@ -136,6 +136,33 @@ export default {
             "Je suis Samira et j'ai le plaisir d'accompagner vos enfants à l'école de l'Hêtre. Ingénieure pédagogique de formation, initialement formée en psychopédagogie ( méthode ABA, art thérapie...) j'exerce depuis plus de dix ans avec une conviction forte : l'élève est au cœur de l'enseignement... Comment me direz-vous ? En prenant le temps... Le temps de discuter avec lui, de ses passions, de ses difficultés, de ses envies... Rentrer dans son univers, c'est le moment le plus enchanteur et passionnant de mon métier, le découvrir et parvenir à se faire confiance mutuellement. J'interviens également au sein de l'école en accompagnement individuel afin de renforcer l'estime de soi des élèves et consolider leurs apprentissages. Je souligne aussi que la progression de l'élève est possible grâce à la coopération des parents en nous partageant des informations capitales pour mieux comprendre l'enfant dans toute sa globalité. Donc merci à vous de nous faire confiance.<br><br>Mon mot d'ordre : Ludique. Ateliers vivants : L'enfant est acteur de ses apprentissages, je m'appuie sur ses passions Humour, anecdotes : pauses détentes avec mes élèves pour casser le rythme trop long du cours... (Basée sur la méthode Pairing)"
         },
         {
+          name: 'Olivia Paola',
+          profession: 'Prof. Espagnol',
+          img: '/imgs/team/espagnol.jpg',
+          description: "D·origine bolivienne et hispanophone, je suis passionnée par la transmission de la langue et de la culture hispaniques. J'ai d'abord obtenu une Licence en linguistique en Bolivie, avant de poursuivre mon parcours en France avec une Licence espagnol puis un Master Métiers de l'enseignement, de l'éducation et de la formation. Mon objectif est de donner l'envie d'apprendre l'espagnol et de faire découvrir aux élèves les nombreux avantages qu'offre sa maîtrise. J'attache une grande importance à un apprentissage dynamique et motivant. Apprendre en s'amusant, développer la confiance des élèves et valoriser toutes les compétences langagières. Convaincue que chacun peut progresser à son rythme, je m'efforce de montrer aux élèves qu'ils possèdent tous des capacités pour apprendre une langue vivante.",
+        },
+        {
+          name: 'Roxane',
+          profession: 'Prof. EPS',
+          img: '/imgs/team/eps_rugby.png',
+          description:
+            "Roxane, professeur d'EPS de l'école de l'école de l'Hêtre. Ancienne joueuse de rugby, et surtout éducatrice de rugby, j'ai eu l'opportunité d'intégrer l'établissement il y a 3 ans. Cela m'a permis notamment à travers l'enseignement de la pratique du sport de véhiculer des valeurs auxquelles je tenais comme la solidarité, l'initiative, la bienveillance...",
+        },
+        {
+          name: 'David',
+          profession: 'Prof. EPS',
+          img: '/imgs/team/eps.png',
+          description:
+            "Moi c'est David je suis professeur d'EPS , mes spécialités sont le handball , le volley et les sports de disciplines enchaînées tel que le triathlon. J'attends des élèves une volonté de progresser et de partager les valeurs du sport,tels que la coopération, la discipline et le dépassement de soi. A très vite sur les terrains",
+        },
+        {
+          name: 'Isabelle',
+          profession: 'Prof. Technologie',
+          img: '/imgs/team/techno.png',
+          description:
+            "Architecte diplômée et gérante de la société d'architecture \"Isabelle Martin-Saux\", j'exerce depuis plusieurs années dans les domaines de la conception architecturale, de la rénovation et du suivi de chantier. Passionnée par la transmission et la créativité, j'enseigne aujourd'hui la technologie au collège de l'Hetre avec l'envie de faire découvrir aux élèves le monde des objets techniques, de la construction, du design et de l'innovation à travers des activités concrètes et dynamiques et théorique. Mon objectif est de développer chez les élèves la curiosité, l'esprit d'équipe, la réflexion technique et la créativité.",
+        },
+        {
           name: 'Prénom',
           profession: 'Profession',
           img: '/imgs/team/',
