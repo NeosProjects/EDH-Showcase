@@ -68,10 +68,17 @@ export default {
             "Il y a des moments dans la vie où tout bascule.<br><br>Pour nous, ce moment a été le jour où l'on nous a annoncé que notre fille, Clotilde, ne pourrait pas suivre un système classique. Qu'il n'y avait “qu'une seule voie“. Qu'elle irait “droit vers l'échec scolaire“. Que son handicap était trop lourd pour entrer dans les cases.<br>Ces mots-là, nous ne les oublierons jamais. Ils auraient pu nous briser. Ils ont, au contraire, réveillé quelque chose en nous.<br>Nous avons refusé de la voir définie par un diagnostic.<br>Refusé de croire que son avenir était tracé.<br>Refusé qu'on mette une limite à sa lumière.<br><br>Ce que certains appelaient une faiblesse… nous est apparu comme une force, un appel, un point de départ.<br><br>Car ce sont nos épreuves qui nous transforment le plus profondément.<br><br>Elles nous traversent, nous sculptent, nous réinventent.<br><br>Alors, nous avons fait un choix.<br>Celui de quitter un système qui ne correspondait pas à notre enfant.<br>Et sans le savoir, nous sommes entrés dans l'une des plus grandes transformations de notre vie.<br><br>Nous avons créé un chemin là où il n'existait pas.<br>Nous avons fondé le Collège de l'Hêtre : un espace, un refuge.<br>Un lieu où chaque enfant est accueilli tel qu'il est.<br>Un lieu où la différence n'est pas un obstacle… mais une richesse.<br>Comme le disait Viktor Frankl : « Donne un sens à ta vie. » Transformer une épreuve en moteur, un chaos en lumière… c'est là que le cœur grandit le plus.<br>Aujourd'hui, ce que nous avons construit, nous l'avons pensé pour accueillir des collégiens tels qu'ils sont, et leur montrer qu'il n'existe pas un seul chemin pour grandir, apprendre et réussir.<br>Si vous cherchez un lieu où votre enfant sera compris, respecté et encouragé à révéler son potentiel, alors peut-être que ce chemin commence ici.",
         },
         {
+          name: 'Manon',
+          profession: 'Directrice',
+          img: '',
+          description: "(Présentation à venir)",
+        },
+        {
           name: 'Genaro',
           profession: 'Directeur Adjoint',
-          img: '/imgs/team/',
-          description: "Description",
+          img: '/imgs/team/genaro.png',
+          description:
+            "Titulaire d'un doctorat en biologie moléculaire, j'ai d'abord suivi un parcours scientifique long et exigeant avant de réaliser que ma véritable vocation était la transmission du savoir. Enseigner s'est imposé comme une évidence : contribuer à former les générations futures et participer, à mon échelle, à la construction d'un monde plus éclairé.Au fil de mon parcours, j'ai enseigné à différents niveaux - université, lycée, collège - tout en accompagnant des élèves en cours particuliers, une activité que je poursuis encore aujourd'hui. Cette diversité d'expériences a façonné ma conviction que chaque élève peut progresser lorsqu'il bénéficie d'un accompagnement adapté et bienveillant. Mon engagement au sein de notre école a renforcé cette motivation. J'y ai rencontré des élèves aux profils neuroatypiques et aux parcours singuliers, qui ont besoin d'un cadre pédagogique spécifique pour révéler leur potentiel. Leur offrir une véritable opportunité d'épanouissement et d'avenir est devenu une mission centrale de mon engagement. Passionné de sciences, j'aime partager la manière dont elles transforment notre compréhension du monde et encourager les élèves à développer curiosité, esprit critique et imagination. Je suis profondément attaché à l'ouverture d'esprit et convaincu que la lutte contre l'ignorance est un enjeu majeur pour notre société. Depuis quelques mois, j'occupe également les fonctions de directeur pédagogique de remplacement. Ce rôle me permet d'élargir mon regard au-delà de mes disciplines d'enseignement et de contribuer à la cohérence globale du projet éducatif, en renforçant le lien essentiel entre enseignants et élèves. J'ai developpé ainsi un sens proprioceptif ou le système complexe conformé par l'élève et l'enseignant est devenu un de mes attibuts majeures.",
         },
         {
           name: 'Georgina',
@@ -100,12 +107,6 @@ export default {
           img: '/imgs/team/history.png',
           description:
             "Formée à l'archéologie et à la médiation culturelle, j'enseigne l'histoire et la littérature, avec une idée simple : rendre le savoir concret et accessible à tous les élèves. Dans mes cours, les élèves ne restent pas en position d'écoute. Ils enquêtent, expérimentent, lisent et mettent en scène. Le petit effectif permet également des mises en situation plus poussées, comme des jeux de rôle autour de moments clés de l'histoire. Mon objectif est de partir du vécu des élèves : de leurs expériences ou de leurs centres d'intérêt pour élaborer des activités qui les aident à comprendre et à progresser à leur propre rythme.",
-        },
-        {
-          name: 'Néo',
-          profession: 'Prof. Programmation',
-          img: '/imgs/team/programmation.jpg',
-          description: "Description",
         },
         {
           name: 'Marie-Céline',
@@ -161,12 +162,6 @@ export default {
           img: '/imgs/team/techno.png',
           description:
             "Architecte diplômée et gérante de la société d'architecture \"Isabelle Martin-Saux\", j'exerce depuis plusieurs années dans les domaines de la conception architecturale, de la rénovation et du suivi de chantier. Passionnée par la transmission et la créativité, j'enseigne aujourd'hui la technologie au collège de l'Hetre avec l'envie de faire découvrir aux élèves le monde des objets techniques, de la construction, du design et de l'innovation à travers des activités concrètes et dynamiques et théorique. Mon objectif est de développer chez les élèves la curiosité, l'esprit d'équipe, la réflexion technique et la créativité.",
-        },
-        {
-          name: 'Prénom',
-          profession: 'Profession',
-          img: '/imgs/team/',
-          description: "Description",
         },
       ],
     }
