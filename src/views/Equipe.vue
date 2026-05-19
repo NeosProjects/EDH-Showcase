@@ -154,6 +154,27 @@ export default {
           description:
             "Architecte diplômée et gérante de la société d'architecture \"Isabelle Martin-Saux\", j'exerce depuis plusieurs années dans les domaines de la conception architecturale, de la rénovation et du suivi de chantier. Passionnée par la transmission et la créativité, j'enseigne aujourd'hui la technologie au collège de l'Hetre avec l'envie de faire découvrir aux élèves le monde des objets techniques, de la construction, du design et de l'innovation à travers des activités concrètes et dynamiques et théorique. Mon objectif est de développer chez les élèves la curiosité, l'esprit d'équipe, la réflexion technique et la créativité.",
         },
+        {
+          name: 'Virginie',
+          profession: 'Prof. Théâtre',
+          img: '/imgs/team/theatre.png',
+          description:
+            "Formée au Studio de formation théâtrale de Vitry-sur-Seine, je suis comédienne depuis plus de quinze ans et travaille aujourd'hui au sein de plusieurs compagnies entre Paris et le Lot. Notamment la compagnie Les Entichés avec laquelle je joue depuis 3 ans \"Qu'il fait beau cela vous suffit\" une pièce dont l'intrigue se déroule en milieu scolaire.  J'anime des ateliers auprès de publics très variés, adolescents, étudiants, personnes en difficulté ou en reconversion pour des associations comme les Apprentis d'Auteuil, des collèges classés REP ou des instituts médicalisés en addictologie. Au fil de mon parcours, j'ai travaillé avec des adolescents très différents : des jeunes timides, anxieux, en difficulté scolaire, hypersensibles, parfois complètement découragés où en rupture avec le système scolaire. Ce que j'aime dans le théâtre, c'est voir à quel point des exercices très simples et ludiques peuvent parfois changer le regard qu'un élève porte sur lui-même. Je ne cherche pas à former de “petits acteurs”, je cherche surtout à créer un espace où les élèves peuvent respirer, essayer, se tromper, rire, prendre la parole et découvrir qu'ils sont capables de beaucoup plus qu'ils ne le pensent. Dans mes cours, chacun avance à son rythme. Certains prennent confiance en parlant devant les autres, d'autres apprennent simplement à mieux gérer leurs émotions, leur stress ou leur place dans le groupe. Le théâtre devient alors un outil pour grandir, se sentir plus solide et parfois même reprendre goût à l'école.",
+        },
+        {
+          name: 'Adam',
+          profession: 'Prof. Audiovisuel',
+          img: '/imgs/team/audiovisuel.png',
+          description:
+            "Réalisateur audiovisuel indépendant basé à Toulouse, diplômé en réalisation video à l'ESRA et en direction d'acteur à StoneStreet Studios, je travaille sur des projets variés. C'est cette pratique de terrain que je transmets aux élèves. Enseigner la réalisation audiovisuelle au collège, c'est ouvrir une porte sur un univers que les enfants côtoient tous les jours sans toujours en comprendre les coulisses. Derrière chaque vidéo, chaque film, il y a des dizaines de métiers : scénariste, chef opérateur, monteur, ingénieur du son, directeur artistique, motion designer… Mon objectif est de leur faire découvrir cette diversité et de leur donner les clés pour décoder les images qui les entourent. Ma pédagogie s'articule autour d'un projet artistique mené sur toute l'année, qui aboutit à une réalisation concrète. Cette démarche par le faire permet aux élèves d'expérimenter chaque étape d'une production - de l'écriture au montage final - et surtout d'apprendre quelque chose qu'aucun cours théorique ne peut enseigner : le travail d'équipe. Sur un tournage, chacun a un rôle, chacun dépend des autres, et la réussite collective prime sur la performance individuelle. Les élèves y développent rigueur, écoute, sens des responsabilités et créativité. Au-delà de la technique, je cherche à transmettre un regard curieux et critique sur les images, à une époque où elles n'ont jamais été aussi omniprésentes. Donner aux élèves les moyens de raconter leurs propres histoires, c'est aussi leur donner les moyens de mieux comprendre celles qu'on leur raconte.",
+        },
+        {
+          name: 'Néo',
+          profession: 'Prof. Programmation',
+          img: '/imgs/team/programmation.jpg',
+          description:
+            "Passionné de programmation depuis la sixième, je poursuis actuellement mes études pour devenir ingénieur informatique. Mon objectif est de transmettre cette passion aux élèves en les initiant aux concepts fondamentaux de la programmation et en leur montrant comment la technologie façonne notre monde. Je crois fermement que la programmation est à la portée de tous et je m'efforce de créer un environnement où chacun peut apprendre, expérimenter et découvrir sa propre créativité à travers le code.",
+        },
       ],
     }
   },
