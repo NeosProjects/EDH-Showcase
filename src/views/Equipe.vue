@@ -108,24 +108,10 @@ export default {
             "Fort d'un parcours musical riche et éclectique, diplômé du conservatoire et d'un master en médiation de la musique, j'accompagne les enfants dans leur aventure musicale depuis deux ans avec passion et engagement. Parce que chaque enfant est unique, je tente de m'adapter au mieux à chaque personnalité, chaque sensibilité et rythme d'apprentissage. Loin du cours magistral traditionnel, je propose une approche vivante et participative où l'élève devient acteur de son propre parcours. La culture & la théorie musicale sont rendues accessibles et vivantes, des ateliers créatifs viennent libérer l'imagination et développer l'écoute et un espace d'expression où argumenter, questionner et créer a toute sa place. Ainsi, mon enseignement s'inscrit pleinement dans la philosophie du collège alternatif tout en maintenant une passerelle avec les cursus traditionnels, afin que chaque élève puisse, s'il le souhaite, rejoindre ou réintégrer une formation classique à tout moment. La musique n'est pas seulement un savoir-faire -- c'est un langage, une façon d'être au monde.",
         },
         {
-          name: 'Samira',
-          profession: 'Prof. Histoire/Geo./Litterature',
-          img: '/imgs/team/litterature.png',
-          description:
-            "Je suis Samira et j'ai le plaisir d'accompagner vos enfants à l'école de l'Hêtre. Ingénieure pédagogique de formation, initialement formée en psychopédagogie ( méthode ABA, art thérapie...) j'exerce depuis plus de dix ans avec une conviction forte : l'élève est au cœur de l'enseignement... Comment me direz-vous ? En prenant le temps... Le temps de discuter avec lui, de ses passions, de ses difficultés, de ses envies... Rentrer dans son univers, c'est le moment le plus enchanteur et passionnant de mon métier, le découvrir et parvenir à se faire confiance mutuellement. J'interviens également au sein de l'école en accompagnement individuel afin de renforcer l'estime de soi des élèves et consolider leurs apprentissages. Je souligne aussi que la progression de l'élève est possible grâce à la coopération des parents en nous partageant des informations capitales pour mieux comprendre l'enfant dans toute sa globalité. Donc merci à vous de nous faire confiance.<br><br>Mon mot d'ordre : Ludique. Ateliers vivants : L'enfant est acteur de ses apprentissages, je m'appuie sur ses passions Humour, anecdotes : pauses détentes avec mes élèves pour casser le rythme trop long du cours... (Basée sur la méthode Pairing)"
-        },
-        {
           name: 'Olivia Paola',
           profession: 'Prof. Espagnol',
           img: '/imgs/team/espagnol.jpg',
           description: "D'origine bolivienne et hispanophone, je suis passionnée par la transmission de la langue et de la culture hispaniques. J'ai d'abord obtenu une Licence en linguistique en Bolivie, avant de poursuivre mon parcours en France avec une Licence espagnol puis un Master Métiers de l'enseignement, de l'éducation et de la formation. Mon objectif est de donner l'envie d'apprendre l'espagnol et de faire découvrir aux élèves les nombreux avantages qu'offre sa maîtrise. J'attache une grande importance à un apprentissage dynamique et motivant. Apprendre en s'amusant, développer la confiance des élèves et valoriser toutes les compétences langagières. Convaincue que chacun peut progresser à son rythme, je m'efforce de montrer aux élèves qu'ils possèdent tous des capacités pour apprendre une langue vivante.",
-        },
-        {
-          name: 'Roxane',
-          profession: 'Prof. EPS',
-          img: '/imgs/team/eps_rugby.png',
-          description:
-            "Roxane, professeur d'EPS de l'école de l'école de l'Hêtre. Ancienne joueuse de rugby, et surtout éducatrice de rugby, j'ai eu l'opportunité d'intégrer l'établissement il y a 3 ans. Cela m'a permis notamment à travers l'enseignement de la pratique du sport de véhiculer des valeurs auxquelles je tenais comme la solidarité, l'initiative, la bienveillance...",
         },
         {
           name: 'David',
