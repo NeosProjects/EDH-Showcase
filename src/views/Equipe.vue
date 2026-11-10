@@ -49,7 +49,7 @@ export default {
   },
   data() {
     return {
-      expandedMembers: {}, // Objet pour tracker les états expansés
+      expandedMembers: {},
       teamMembers: [
         {
           name: 'Marie & Julien',
@@ -59,17 +59,11 @@ export default {
             "Il y a des moments dans la vie où tout bascule.<br><br>Pour nous, ce moment a été le jour où l'on nous a annoncé que notre fille, Clotilde, ne pourrait pas suivre un système classique. Qu'il n'y avait “qu'une seule voie”. Qu'elle irait “droit vers l'échec scolaire”. Que son handicap était trop lourd pour entrer dans les cases.<br>Ces mots-là, nous ne les oublierons jamais. Ils auraient pu nous briser. Ils ont, au contraire, réveillé quelque chose en nous.<br>Nous avons refusé de la voir définie par un diagnostic.<br>Refusé de croire que son avenir était tracé.<br>Refusé qu'on mette une limite à sa lumière.<br><br>Ce que certains appelaient une faiblesse… nous est apparu comme une force, un appel, un point de départ.<br><br>Car ce sont nos épreuves qui nous transforment le plus profondément.<br><br>Elles nous traversent, nous sculptent, nous réinventent.<br><br>Alors, nous avons fait un choix.<br>Celui de quitter un système qui ne correspondait pas à notre enfant.<br>Et sans le savoir, nous sommes entrés dans l'une des plus grandes transformations de notre vie.<br><br>Nous avons créé un chemin là où il n'existait pas.<br>Nous avons fondé le Collège de l'Hêtre : un espace, un refuge.<br>Un lieu où chaque enfant est accueilli tel qu'il est.<br>Un lieu où la différence n'est pas un obstacle… mais une richesse.<br>Comme le disait Viktor Frankl : « Donne un sens à ta vie. » Transformer une épreuve en moteur, un chaos en lumière… c'est là que le cœur grandit le plus.<br>Aujourd'hui, ce que nous avons construit, nous l'avons pensé pour accueillir des collégiens tels qu'ils sont, et leur montrer qu'il n'existe pas un seul chemin pour grandir, apprendre et réussir.<br>Si vous cherchez un lieu où votre enfant sera compris, respecté et encouragé à révéler son potentiel, alors peut-être que ce chemin commence ici.",
         },
         {
-          name: 'Manon',
-          profession: 'Directrice',
-          img: null,
-          description: "(Présentation à venir)",
-        },
-        {
-          name: 'Genaro',
-          profession: 'Directeur Adjoint',
-          img: '/imgs/team/genaro.png',
+          name: 'Mara',
+          profession: 'Directrice pédagogique, Prof. Histoire et Prof. Français',
+          img: '/imgs/team/history.png',
           description:
-            "Titulaire d'un doctorat en biologie moléculaire, j'ai d'abord suivi un parcours scientifique long et exigeant avant de réaliser que ma véritable vocation était la transmission du savoir. Enseigner s'est imposé comme une évidence : contribuer à former les générations futures et participer, à mon échelle, à la construction d'un monde plus éclairé.Au fil de mon parcours, j'ai enseigné à différents niveaux - université, lycée, collège - tout en accompagnant des élèves en cours particuliers, une activité que je poursuis encore aujourd'hui. Cette diversité d'expériences a façonné ma conviction que chaque élève peut progresser lorsqu'il bénéficie d'un accompagnement adapté et bienveillant. Mon engagement au sein de notre école a renforcé cette motivation. J'y ai rencontré des élèves aux profils neuroatypiques et aux parcours singuliers, qui ont besoin d'un cadre pédagogique spécifique pour révéler leur potentiel. Leur offrir une véritable opportunité d'épanouissement et d'avenir est devenu une mission centrale de mon engagement. Passionné de sciences, j'aime partager la manière dont elles transforment notre compréhension du monde et encourager les élèves à développer curiosité, esprit critique et imagination. Je suis profondément attaché à l'ouverture d'esprit et convaincu que la lutte contre l'ignorance est un enjeu majeur pour notre société. Depuis quelques mois, j'occupe également les fonctions de directeur pédagogique de remplacement. Ce rôle me permet d'élargir mon regard au-delà de mes disciplines d'enseignement et de contribuer à la cohérence globale du projet éducatif, en renforçant le lien essentiel entre enseignants et élèves. J'ai developpé ainsi un sens proprioceptif ou le système complexe conformé par l'élève et l'enseignant est devenu un de mes attibuts majeures.",
+            "Formée à l'archéologie et à la médiation culturelle, j'enseigne l'histoire et la littérature, avec une idée simple : rendre le savoir concret et accessible à tous les élèves. Dans mes cours, les élèves ne restent pas en position d'écoute. Ils enquêtent, expérimentent, lisent et mettent en scène. Le petit effectif permet également des mises en situation plus poussées, comme des jeux de rôle autour de moments clés de l'histoire. Mon objectif est de partir du vécu des élèves : de leurs expériences ou de leurs centres d'intérêt pour élaborer des activités qui les aident à comprendre et à progresser à leur propre rythme.",
         },
         {
           name: 'Georgina',
@@ -91,13 +85,6 @@ export default {
           img: '/imgs/team/art.png',
           description:
             "Peintre et Professeur d'arts plastiques. Mon ambition est de faire grandir la confiance des enfants par la mise en pratique des Arts quelque soit le support. Je m'efforce également de développer leur culture générale en leur proposant de travailler sur différents peintres et techniques connus. Ces créations sont accompagnées de beaucoup d'échanges où les enfants parfois se confient ou expriment oralement des sentiments ou des pensées … mon cours se veut convivial et ouvert à la créativité. Je l'ai pensé comme une bulle d'oxygène où on s'exprime sans jugement et dans la bienveillance totale. Chacun a un talent…. À nous de découvrir où on peut s'exprimer …",
-        },
-        {
-          name: 'Mara',
-          profession: 'Prof. Histoire',
-          img: '/imgs/team/history.png',
-          description:
-            "Formée à l'archéologie et à la médiation culturelle, j'enseigne l'histoire et la littérature, avec une idée simple : rendre le savoir concret et accessible à tous les élèves. Dans mes cours, les élèves ne restent pas en position d'écoute. Ils enquêtent, expérimentent, lisent et mettent en scène. Le petit effectif permet également des mises en situation plus poussées, comme des jeux de rôle autour de moments clés de l'histoire. Mon objectif est de partir du vécu des élèves : de leurs expériences ou de leurs centres d'intérêt pour élaborer des activités qui les aident à comprendre et à progresser à leur propre rythme.",
         },
         {
           name: 'Marie-Céline',
@@ -167,13 +154,6 @@ export default {
           img: '/imgs/team/audiovisuel.png',
           description:
             "Réalisateur audiovisuel indépendant basé à Toulouse, diplômé en réalisation video à l'ESRA et en direction d'acteur à StoneStreet Studios, je travaille sur des projets variés. C'est cette pratique de terrain que je transmets aux élèves. Enseigner la réalisation audiovisuelle au collège, c'est ouvrir une porte sur un univers que les enfants côtoient tous les jours sans toujours en comprendre les coulisses. Derrière chaque vidéo, chaque film, il y a des dizaines de métiers : scénariste, chef opérateur, monteur, ingénieur du son, directeur artistique, motion designer… Mon objectif est de leur faire découvrir cette diversité et de leur donner les clés pour décoder les images qui les entourent. Ma pédagogie s'articule autour d'un projet artistique mené sur toute l'année, qui aboutit à une réalisation concrète. Cette démarche par le faire permet aux élèves d'expérimenter chaque étape d'une production - de l'écriture au montage final - et surtout d'apprendre quelque chose qu'aucun cours théorique ne peut enseigner : le travail d'équipe. Sur un tournage, chacun a un rôle, chacun dépend des autres, et la réussite collective prime sur la performance individuelle. Les élèves y développent rigueur, écoute, sens des responsabilités et créativité. Au-delà de la technique, je cherche à transmettre un regard curieux et critique sur les images, à une époque où elles n'ont jamais été aussi omniprésentes. Donner aux élèves les moyens de raconter leurs propres histoires, c'est aussi leur donner les moyens de mieux comprendre celles qu'on leur raconte.",
-        },
-        {
-          name: 'Néo',
-          profession: 'Prof. Programmation',
-          img: '/imgs/team/programmation.jpg',
-          description:
-            "Passionné de programmation depuis la sixième, je poursuis actuellement mes études pour devenir ingénieur informatique. Mon objectif est de transmettre cette passion aux élèves en les initiant aux concepts fondamentaux de la programmation et en leur montrant comment la technologie façonne notre monde. Je crois fermement que la programmation est à la portée de tous et je m'efforce de créer un environnement où chacun peut apprendre, expérimenter et découvrir sa propre créativité à travers le code.",
         },
       ],
     }
